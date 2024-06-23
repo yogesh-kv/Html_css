@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advance1-flexbox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            border: 5px solid black;
+
+        }
+
+        .right{
+            background-color: green;
+            height: 100%;
+            width: 20%;
+            border: 2px solid black;
+
+        }
+
+        .mid{
+            background-color: blue;
+            height: 100%;
+            width: 50%;
+            border: 5px solid black;
+        }
+
+        .left{
+            background-color: green;
+            height: 100%;
+            width: 30%;
+            border: 5px solid black;
+        }
+
+        .midupper{
+            background-color: red;
+            height: 33.33%;
+            width: 100%;   
+            border: 5px solid black;
+        }
+
+        .midmid{
+            background-color: blueviolet;
+            height: 33.33%;
+            width: 100%;
+            border: 5px solid black;
+            display: flex;
+        }
+
+
+        .midlower{
+            background-color: aquamarine;
+            height: 33.33%;
+            width: 100%;
+            border: 5px solid black;
+            display: flex;
+        }
+
+        .midmidleft{
+            background-color: greenyellow;
+            width: 50%;
+            height: 100%;
+            border: 5px solid black;
+        }
+
+        midmidright{
+            width: 50%;
+            height: 100%;
+        }
+
+        .midloweruper{
+            width: 50%;
+            height: 100%;
+            background-color: red;
+            border: 5px solid black;
+        }
+
+        .midlowerlower{
+            width: 50%;
+            height: 100%;
+            background-color: aqua;
+            border: 5px solid black;
+        }
+
+        .leftupper{
+            width: 100%;
+            height: 20%;
+            background-color: chocolate;
+            border: 5px solid black;
+        }
+
+        .leftlower{
+            width: 100%;
+            height: 80%;
+            background-color: chartreuse;
+            border: 5px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="right">
+
+        </div>
+        <div class="mid">
+            <div class="midupper"></div>
+            <div class="midmid">
+                <div class="midmidleft"></div>
+                <div class="midmidright"></div>
+            </div>
+            <div class="midlower">
+                <div class="midloweruper"></div>
+                <div class="midlowerlower"></div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="leftupper"></div>
+            <div class="leftlower"></div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

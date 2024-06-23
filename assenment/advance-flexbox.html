@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css layout</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        .container{
+            background-color: black;
+            height: 100vh;
+            display: flex;
+        }
+
+        .upper{
+            background-color: red;
+            height: 100%;
+            width: 50%;
+            
+        }
+
+
+        .lower{
+            background-color: blue;
+            height: 100%;
+            width: 50%;
+            margin: 2px;
+        }
+
+        .lowerupper{
+            background-color: rgb(33, 146, 129);
+            height: 30%;
+            width: 100%;
+            margin: 1px;
+        }
+
+        .lowermid{
+            background-color: bisque;
+            height: 20%;
+            margin: 2px;
+            display: flex;
+        }
+
+        .lowerlower{
+            background-color: green;
+            height: 50%;
+            
+        }
+
+        .lowermidlefe{
+            background-color: blueviolet;
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        .lowermidright{
+            background-color:grey;
+            height: 100%;
+            width: 100%;
+        }
+
+
+
+        .uppersection{
+            background-color: red;
+            height: 50%;
+        }
+
+        .lowersection{
+            background-color: aqua;
+            height: 50%;
+            display: flex;
+        }
+
+        .lowersectionleft{
+            background-color: blueviolet;
+            height: 100%;
+            width: 50%;
+        }
+
+        .lowersectionright{
+            background-color: blue;
+            height: 100%;
+            width: 50%;
+            margin: 2px;
+        }
+
+        .lowersectionleftupper{
+            background-color: goldenrod;
+            height: 50%;
+            width: 100%;
+            margin: 2px;
+        }
+
+        .lowersectionleftdown{
+            background-color: greenyellow;
+            height: 50%;
+            width: 100%;
+            margin: 2px;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="upper">1
+            <div class="uppersection"></div>
+            <div class="lowersection">
+                <div class="lowersectionleft">
+                    <div class="lowersectionleftupper"></div>
+                    <div class="lowersectionleftdown"></div>
+                </div>
+                <div class="lowersectionright"></div>
+            </div>
+        </div>
+
+        <div class="lower">
+            <div class="lowerupper"></div>
+            <div class="lowermid">
+                <div class="lowermidlefe"></div>
+                <div class="lowermidright"></div>
+            </div>
+            <div class="lowerlower"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
